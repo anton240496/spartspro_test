@@ -323,8 +323,7 @@ button {
     /* меню */
     .menu {
         position: absolute;
-        width: 100%;
-        max-width: 768px;
+        width: 95%;
         background-color: #FFFFFF;
         top: -100%;
         transition: all .5s;
