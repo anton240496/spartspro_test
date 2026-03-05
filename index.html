@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="container">
+  <header class="head">
+    <div class="header_container">
+      <a class="logo" href="/">
+        <img src="images/logo.svg" alt="">
+      </a>
+      <button class="menu_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="menu">
+        <ul class="menu_list">
+          <li class="menu_item">
+            <a class="menu_link" href="/">Главная</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="#catalog">Каталог</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="#about">О компании</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="#buy">Оплата и доставка</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="#contact">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="catalog" id="catalog">
+      <h1 class="title">Рекомендуемое оборудование</h1>
+      <div class="catalog_container">
+        <div class="catalog_carta">
+          <img src="images/carta1.png" alt="">
+          <div class="carta_content">
+            <h2 class="carta_title">Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570</h2>
+            <p class="carta_status carta_nal">В наличии 50 м.</p>
+            <button class="carta_btn btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="catalog_carta">
+          <img src="images/carta2.png" alt="">
+          <div class="carta_content">
+            <h2 class="carta_title">Плоский тяговый ремень для лифта
+              GRS AAA717X1 (12 кордов)
+            </h2>
+            <p class="carta_status carta_zakaz">Под заказ</p>
+            <button class="carta_btn btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="catalog_carta">
+          <img src="images/carta3.png" alt="">
+          <div class="carta_content">
+            <h2 class="carta_title">Стальной канат для лифта GRS 8X19S-NFC 1570</h2>
+            <p class="carta_status carta_nal">В наличии 50 м.</p>
+            <button class="carta_btn btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="catalog_carta">
+          <img src="images/carta4.png" alt="">
+          <div class="carta_content">
+            <h2 class="carta_title">Стальной канат для лифта GRS 9X21F(9Х17)-IWRC 1570</h2>
+            <p class="carta_status carta_nal">В наличии 50 м.</p>
+            <button class="carta_btn btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="catalog_carta">
+          <img src="images/carta5.png" alt="">
+          <div class="carta_content">
+            <h2 class="carta_title">Стальной канат для лифта GRS 8X19W-CWC 1570</h2>
+            <p class="carta_status carta_nal">В наличии 50 м.</p>
+            <button class="carta_btn btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="catalog_carta">
+          <img src="images/carta6.png" alt="">
+          <div class="carta_content">
+            <h2 class="carta_title">Купить плоский тяговый ремень для лифта GRS AAA717AJ1(8 кордов)</h2>
+            <p class="carta_status carta_nal">В наличии 50 м.</p>
+            <button disabled class="carta_btn btn">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <button class="btn catalog_btn">Перейти в каталог</button>
+    </section>
+    <section class="about" id="about">
+      <h1 class="title">О компании</h1>
+      <div class="about_container">
+        <div class="about_img">
+          <img src="images/about.png" alt="">
+          <img src="images/about1.png" alt="">
+          <img src="images/about2.png" alt="">
+        </div>
+        <div class="about_content">
+          <strong class="about_header">Компания «SPARTSPRO» специализируется на поставках лифтового оборудования,
+            комплектующих и запчастей для лифтов и эскалаторов ведущих мировых и российских производителей.</strong>
+          <ul class="about_list">
+            <li class="about_item">Гарантия качества – работаем только с проверенными производителями.</li>
+            <li class="about_item">Собственный склад – более 30 000 наименований в наличии для оперативных отгрузок.
+            </li>
+            <li class="about_item">Соблюдение сроков – приоритет компании: быстрая обработка заказов и доставка без
+              задержек.</li>
+          </ul>
+          <p class="about_podval">Мы обеспечиваем бесперебойные поставки для ваших проектов. Оставьте заявку – и
+            получите коммерческое предложение в кратчайшие сроки!</p>
+          <button class="about_btn btn">Подробнее</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
